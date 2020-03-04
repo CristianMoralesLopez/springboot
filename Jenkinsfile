@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+#!/usr/bin/env groovy 
 
 def sendFailureEmail() {
     def content = "Build for branch ${env.BRANCH_NAME} Failed."
